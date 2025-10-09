@@ -1,5 +1,4 @@
 {
-  "homepage": "https://Surbhi0701.github.io/Learn",
   "name": "learn",
   "version": "0.1.0",
   "private": true,
@@ -21,7 +20,7 @@
     "webpack-dev-server": "^5.2.2"
   },
   "scripts": {
-     "predeploy": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
